@@ -140,7 +140,7 @@ export function Tracker({ session }: Props) {
           <p className="progress">
             {doneToday === dayExercises.length && dayExercises.length > 0
               ? 'Día completo.'
-              : `${doneToday} de ${dayExercises.length} ejercicios`}
+              : `${doneToday}/${dayExercises.length} completados`}
           </p>
 
           {current ? (
